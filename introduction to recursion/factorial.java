@@ -10,11 +10,12 @@ public class factorial {
         System.out.println(facn);
     }
 
-    public static int factorial(int n){
-        if(n==0)return 1;
-        int fa = factorial(n-1);
-        int mya = n*fa;
-        
+    public static int factorial(int n) {
+        if (n == 0)
+            return 1;
+        int fa = factorial(n - 1);
+        int mya = n * fa;
+
         return mya;
     }
 
